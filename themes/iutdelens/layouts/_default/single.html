@@ -1,0 +1,9 @@
+{{ .Title }}
+{{ .Content }}
+{{ with .Vrai_site.Params.authorImage }}
+<div>
+    <img src="{{ . }}" />
+</div>
+{{ end }}
+{{ .Vrai_site.Params.Author }}
+categories : ["Projet", "Développement web"]
